@@ -1,7 +1,10 @@
 # mysql-trigger
 This is a bash script for generating update trigger for a table.
+
 This script required the database name and table names as parameter.
+
 Also update the username and password while using it.
+
 For audit purpose I have created a table named audit.
 
 create table audit(id bigint(20)  NOT NULL AUTO_INCREMENT,
