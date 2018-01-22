@@ -17,4 +17,5 @@ PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
 So this will have all the incremental changes ie past changes.
+
 If you are adding a new column to a table then drop the previous trigger and create a new trigger.
